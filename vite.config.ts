@@ -48,9 +48,8 @@
         '@': path.resolve(__dirname, './src'),
       },
     },
-    build: {
-      target: 'esnext',
-      outDir: 'build',
+     outDir: 'dist', // This should be set to 'dist'
+    sourcemap: true // Optional: helps with debugging
     },
     server: {
       port: 3000,
